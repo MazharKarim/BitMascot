@@ -1,0 +1,50 @@
+.paginate {
+    background: rgba(0, 0, 0, .0001);
+    border-radius: 2px;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+}
+
+.paginate span.currentStep {
+    background: none repeat scroll 0 0 #2d2a37;
+    border: 1px solid #413e4a;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    line-height: 32px;
+    padding: 0 10px;
+    position: relative;
+    z-index: 10;
+    font-size: 14px;
+}
+
+.paginate a.step {
+    background: #413e4a;
+    border: 1px solid #56535f;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 10px;
+}
+
+.paginate a.nextLink {
+    background: #413e4a;
+    border: 1px solid #56535f;
+    color: #ffffff;
+    line-height: 32px;
+    padding: 0 8px;
+    float: left;
+}
+
+.paginate a.prevLink {
+    background: #413e4a;
+    border: 1px solid #56535f;
+    color: #ffffff;
+    line-height: 32px;
+    padding: 0 8px;
+    display: inline-block;
+    float: left;
+}

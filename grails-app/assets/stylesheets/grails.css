@@ -29,14 +29,15 @@ pre {
 /* customizing bootstrap nav bar */
 .navbar {
     margin-bottom: 0px;
-    padding-right: 110px;
+    padding-right: 0px;
+    height: 5%;
 }
 .navbar .container {
-    margin: 10px;
+    margin: 0px;
 }
 .navbar-default a {
     color: #ffffff !important;
-    font-size: 18px !important;
+    font-size: 15px !important;
     text-decoration: none;
 }
 .grails-icon img {
@@ -44,7 +45,7 @@ pre {
 
 }
 .navbar-default, .navbar-static-top {
-    background-color: #4D8618;
+    background-color: #413e4a;
     border: 0px;
 }
 a.navbar-brand {
@@ -59,7 +60,7 @@ a.navbar-brand {
     color: white !important;
 }
 .navbar-nav>li>a:hover {
-    background-color: #db4800 !important;
+    background-color: #2d2a37 !important;
     color: white !important;
 }
 .navbar-nav>li>a {
@@ -69,7 +70,7 @@ a.navbar-brand {
     background-color: white;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #db4800;
+    background-color: #2d2a37;
 }
 
 @media (min-width: 768px) {
@@ -381,8 +382,7 @@ body, html {
 }
 
 a {
-    color: #db4800;
-    text-decoration: underline;
+    color: #337ab7;
 }
 
 a:hover {
@@ -506,9 +506,10 @@ h8 {
 
 .row {
     position: relative;
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 5%
+    padding: 0 1%;
+    float: right;
 }
 
 .row:before, .row:after {
@@ -541,7 +542,7 @@ h8 {
 }
 
 #content {
-    background: white
+    background: #aeaeae
 }
 
 #content .row:before, #content .row:after {
@@ -800,7 +801,7 @@ ul.nav-sidebar li.active a {
 }
 
 .table {
-    margin: 20px 0
+    margin: 13px 0
 }
 
 .table thead tr th {
@@ -810,10 +811,10 @@ ul.nav-sidebar li.active a {
 }
 
 .table tbody tr td {
-    vertical-align: top;
-    font-size: 12px;
-    padding: 10px;
-    border-top: 1px solid #EEE
+    vertical-align: middle;
+    font-size: 10pt;
+    padding: 5px;
+    border-top: 1px solid #EEE;
 }
 
 *, *:after, *::before {

@@ -33,7 +33,7 @@ html * {
 }
 
 body {
-    background: #ffffff;
+    background: #aeaeae;
     color: #333333;
     overflow-x: hidden; /* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide */
     -moz-box-shadow: 0 0 0.3em #4D8618;
@@ -84,7 +84,7 @@ img {
 }
 
 .footer {
-    background: #48802c;
+    background: #413e4a;
     color: #000;
     clear: both;
     font-size: 0.8em;
@@ -122,10 +122,13 @@ img {
 
 .nav li {
     display: block;
+    background: #373340;
     float: left;
     list-style-type: none;
-    margin-right: 0.5em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
     padding: 0;
+    border-radius: 0.3em;
 }
 
 .nav a {
@@ -139,13 +142,15 @@ img {
 }
 
 .nav a:active, .nav a:visited {
-    color: #666666;
+    color: #2d2a37;
 }
 
 .nav a:focus, .nav a:hover {
-    background-color: #999999;
-    color: #ffffff;
+    background-color: #2d2a37;
+    color: #373340;
     outline: none;
+    margin-left: 0px;
+    margin-right: 0px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
 
@@ -174,7 +179,7 @@ img {
 }
 
 .nav li.dropdown.open ul.dropdown-menu {
-    background-color: #4D8618;
+    background-color: #55525e;
 }
 
 /* CREATE/EDIT FORMS AND SHOW PAGES */
@@ -377,6 +382,8 @@ table {
 
 tr {
     border: 0;
+    background: #ffffff;
+    color: #413e4a;
 }
 
 tr>td:first-child, tr>th:first-child {
@@ -395,9 +402,9 @@ td, th {
 }
 
 th {
-    background-color: #efefef;
-    background-image: -moz-linear-gradient(top, #ffffff, #eaeaea);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #eaeaea));
+    background-color: #413e4a;
+    /*background-image: -moz-linear-gradient(top, #ffffff, #eaeaea);*/
+    /*background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #eaeaea));*/
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr = '#ffffff', EndColorStr = '#eaeaea');
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#eaeaea')";
     color: #666666;
@@ -416,17 +423,19 @@ th a {
 }
 
 th a:link, th a:visited {
-    color: #666666;
+    color: #ffffff;
 }
 
 th a:hover, th a:focus {
-    color: #333333;
+    color: #ffffff;
 }
 
 th.sortable a {
     background-position: right;
     background-repeat: no-repeat;
     padding-right: 1.1em;
+    font-size: 11pt;
+    margin: -4px;
 }
 
 th.asc a {
@@ -445,8 +454,9 @@ th.desc a {
     background: #ffffff;
 }
 
-th:hover, tr:hover {
-    background: #79b94c;
+th:hover {
+    background: #2d2a37;
+/*    , tr:hover*/
 }
 
 /* PAGINATION */

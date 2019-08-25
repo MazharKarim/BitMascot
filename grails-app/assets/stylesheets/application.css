@@ -12,4 +12,7 @@
 *= require main
 *= require mobile
 *= require_self
+*= require fontawesome-free/css/all
+*= require style
+*= require error
 */

@@ -7,6 +7,9 @@
 //
 //= require jquery-2.2.0.min
 //= require bootstrap
+//= require ap
+//= require app.message.box
+//= require popper.min
 //= require_tree .
 //= require_self
 
