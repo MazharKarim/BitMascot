@@ -7,7 +7,7 @@
         <g:layoutTitle default="App"/>
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
+    <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
     <asset:stylesheet src="application.css"/>
 
 
@@ -44,20 +44,19 @@
             </div>
             <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
                 <ul class="nav navbar-nav navbar-right">
-                    <UIHelper:memberActionMenu/>
+                    <g:pageProperty name="page.nav" />
                 </ul>
             </div>
         </div>
     </div>
 
-
-
-
-<div class="sidenav">
-    <UIHelper:leftNavigation/>
-</div>
+%{--<div class="sidenav">--}%
+%{--    <a href="#profilePage"><i class="fas fa-user-tie"></i> Profile Page</a>--}%
+%{--    <a href="#changePassword"><i class="fas fa-key"></i> Change Password</a>--}%
+%{--</div>--}%
 
     <g:layoutBody/>
+
 %{--    <div class="footer" role="contentinfo"></div>--}%
 
 %{--    <div id="spinner" class="spinner" style="display:none;">--}%
